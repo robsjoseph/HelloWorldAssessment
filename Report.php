@@ -61,8 +61,8 @@ class DBInterface
 	static function ExecuteQuery($Query)
 	{
 		
-		$Username = "rj";
-		$Password = "rj02";
+		$Username = "rob";
+		$Password = "sql12";
 
 		$Connection = mysql_connect('localhost', $Username, $Password) or die("Cnnx Issues");
 		mysql_select_db('UserRegistration');	
