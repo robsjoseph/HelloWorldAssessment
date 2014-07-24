@@ -60,8 +60,8 @@ class DBInterface
 	static function ExecuteQuery($Query)
 	{
 		
-		$Username = "rj";
-		$Password = "rj02";
+		$Username = "rob";
+		$Password = "sql12";
 
 		$Connection = mysql_connect('localhost', $Username, $Password) or die("Cnnx Issues");
 		mysql_select_db('UserRegistration');	
@@ -80,8 +80,8 @@ class DBInterface
 function DBO() 
 {
 
-	$Username = "rj";
-	$Password = "rj02";
+	$Username = "rob";
+	$Password = "sql12";
 
 	$link = new mysqli('localhost',$Username,$Password,'UserRegistration') or die("Cnnx Issues");
 
